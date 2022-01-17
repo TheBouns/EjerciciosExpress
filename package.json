@@ -1,7 +1,6 @@
 {
   "name": "ejerciciosexpress",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "ej2": "nodemon ej2.js",
@@ -17,5 +16,14 @@
   },
   "dependencies": {
     "express": "^4.17.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBouns/EjerciciosExpress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheBouns/EjerciciosExpress/issues"
+  },
+  "homepage": "https://github.com/TheBouns/EjerciciosExpress#readme",
+  "description": ""
 }
