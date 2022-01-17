@@ -23,3 +23,21 @@ app.get("/productos",(req,res)=>{
 app.post("/productos",(req,res)=>{
     res.send("crear un producto post")
 })
+app.put("/productos", (req,res)=>{
+    res.send("actualizar un producto")
+})
+app.delete("/productos",(req,res)=>{
+    res.send("borrar un producto")
+})
+app.get("/usuarios", (req,res)=>{
+    res.send("listado de usuarios")
+})
+app.post("/usuarios" ,(req,res)=>{
+    res.send("Crear un usuario")
+})
+app.put("/usuarios", (req,res)=>{
+    res.send("actualizar un usuario")
+})
+app.delete("/usuarios", (req,res)=>{
+    res.send("eliminar un usuario")
+})
